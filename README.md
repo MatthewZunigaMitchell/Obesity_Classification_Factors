@@ -30,20 +30,20 @@ This project aims to identify the factors the contribute the most to obesity cla
 ## Model and Model Metrics
 Type of model: Supervised classification model  
 Algorithm used: Logistic Regression algorithm  
-Metrics to assess performance: 
-    1. Recall
+Metrics to assess performance:  
+    1. Recall  
     2. Accuracy
 
-Benchmark for success:
-    1. Model produces a recall score greater than or equal to 0.95 or 95%
+Benchmark for success:  
+    1. Model produces a recall score greater than or equal to 0.95 or 95%  
     2. Model produces an accuracy score greater than or equal to 0.95 or 95%
 
 Metic reasoning:  
-Since this data relates to human health and could be used to get a preliminary obesity classification, the results should correctly classify as many individuals as possible and correctly classify obesity when seen.
-    1. Recall: 
-        A. A measure of how many of the truly positive cases the model correctly classifies.
-    2. Accuracy
-        B. A measure of how many records were correctly classified in the model.
+Since this data relates to human health and could be used to get a preliminary obesity classification, the results should correctly classify as many individuals as possible and correctly classify obesity when seen.  
+    1. Recall:  
+        A. A measure of how many of the truly positive cases the model correctly classifies.  
+    2. Accuracy  
+        B. A measure of how many records were correctly classified in the model.  
 
 ## Project Summary
 This project aimed to identify the leading three features in classifying a record as obese. After producing a Logisitc Regression model that satisfied the recall and accuracy requirments, the model's coefficients were pulled and examined. The top three positive coefficents are:
