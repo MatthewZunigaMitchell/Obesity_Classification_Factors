@@ -40,10 +40,8 @@ Benchmark for success:
 
 Metic reasoning:  
 Since this data relates to human health and could be used to get a preliminary obesity classification, the results should correctly classify as many individuals as possible and correctly classify obesity when seen.  
-    1. Recall:  
-        A. A measure of how many of the truly positive cases the model correctly classifies.  
-    2. Accuracy  
-        B. A measure of how many records were correctly classified in the model.  
+    1. Recall: A measure of how many of the truly positive cases the model correctly classifies.  
+    2. Accuracy: A measure of how many records were correctly classified in the model.  
 
 ## Project Summary
 This project aimed to identify the leading three features in classifying a record as obese. After producing a Logisitc Regression model that satisfied the recall and accuracy requirments, the model's coefficients were pulled and examined. The top three positive coefficents are:
